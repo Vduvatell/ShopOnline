@@ -3,32 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preload" href="fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/lato-bold.woff2" as="font" type="font/woff2" crossorigin>
+
   <link rel="stylesheet" href="style.css">
   <title>Article</title>
 </head>
 <body>
-  <div class="wrapper">
+  <main class="main">
     <article>
       <h1 class="title">Как ухаживать за обувью из кожи</h1>
-      <p class="title-p">
+      <p class="title__text title__text_one">
         Материала для обуви лучше натуральной кожи все ещё не придумали. Качественную кожу очень приятно носить, она идеально ложится по ноге, в нужных местах немного растягивается. В кожаной обуви, если она соответствует погоде, создаётся хороший микроклимат – ноги не мёрзнут, не потеют, и чувствуют себя очень комфортно. Неудивительно, что по статистике больше 60% покупателей выбирает обувь именно из гладкой натуральной кожи. Вдобавок кожа практична и не требует трудоёмкого ухода.
       </p>
-      <p class="title-p2">
+      <p class="title__text title__text_two">
         Но это совсем не означает, что можно раз в полгода протереть обувь тряпочкой и на этом остановиться. Так же, как кожа лица и тела, материал обуви нуждается в заботе. Регулярный уход надолго продлит срок службы любимой пары и сделает её аккуратной и сияющей, словно только что из магазина.
       </p>
-      <p class="autor">Инга Соловьева</p>
+      <p class="title__autor">Инга Соловьева</p>
     </article>
-      <svg class="svg-pic" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-        <g clip-path="url(#clip0_1004_441)">
-          <path d="M21 11H6.83L10.41 7.41L9 6L3 12L9 18L10.41 16.59L6.83 13H21V11Z" fill="#2D2D2D"/>
-        </g>
-        <defs>
-          <clipPath id="clip0_1004_441">
-            <rect width="24" height="24" fill="white"/>
-          </clipPath>
-        </defs>
+    <div class="article__all">
+      <svg class="article__img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M21 11H6.83L10.41 7.41L9 6L3 12L9 18L10.41 16.59L6.83 13H21V11Z" fill="#2D2D2D"/>
       </svg>
-      <a class="list-articles" href="#">К списку статей</a>
+      <a class="article__text" href="#">К списку статей</a>
     </div>
+    </main>
   </body>
 </html>
