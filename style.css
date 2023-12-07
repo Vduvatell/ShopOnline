@@ -42,7 +42,7 @@ body {
   line-height: 33px;
 }
 
-.article__text {
+.list-article__text {
   color: #2d2d2d;
   font-weight: 700;
   line-height: 20.8px;
@@ -50,6 +50,6 @@ body {
   text-decoration: none;
 }
 
-.article__img {
+.list-article__img {
   vertical-align: middle;
 }
