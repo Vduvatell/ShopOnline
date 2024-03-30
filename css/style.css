@@ -140,6 +140,9 @@
 }
 
 @media (max-width: 1850px) {
+  .header {
+    padding-block: 34px 60px;
+  }
 
   .menu {
     row-gap: 34px;
@@ -204,6 +207,10 @@
 
 
 @media (max-width: 1024px) {
+  .header {
+    padding-block: 25px 50px;
+  }
+
   .menu {
     row-gap: 29px;
     grid-template-columns: 165px 314px 221px;
