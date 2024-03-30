@@ -84,3 +84,205 @@
   font-size: 30px;
   font-weight: 700;
 }
+
+
+
+
+@media (max-width: 1850px) {
+  .img__percent_top {
+    top: 10px;
+    left: 10px;
+  }
+
+  .img__percent_bottom {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .img__text_book {
+    bottom: 20px;
+    left: 9px;
+    width: 190px;
+    font-size: 24px;
+  }
+
+  .book__decor-text {
+    font-size: 30px;
+  }
+
+  .img__text_clock {
+    top: 58px;
+    left: 9px;
+    font-size: 24px;
+  }
+
+  .img__text_two-shoe {
+    bottom: 22px;
+    left: 22px;
+    width: 414px;
+    font-size: 30px;
+    padding: 25px 40px 25px 29px;
+  }
+
+  .two-shoe__decor-text {
+    font-size: 40px;
+  }
+
+  .img__text_mix {
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+  }
+
+  .img__text_new-year {
+    bottom: 50px;
+    left: 50px;
+    padding: 32px 41px 32px 42px;
+    font-size: 40px;
+    border-radius: 16px;
+  }
+
+  .img__text_spray {
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .img__percent {
+    font-size: 16px;
+    padding: 15px 6px 14px 6px;
+}
+
+  .img__text_book {
+    bottom: 15px;
+    left: 10px;
+    width: 120px;
+    font-size: 20px;
+  }
+
+  .book__decor-text {
+    font-size: 26px;
+  }
+
+  .img__text_clock {
+    top: 15px;
+    left: 5px;
+    font-size: 16px;
+  }
+
+  .img__text_two-shoe {
+    bottom: 10px;
+    left: 7px;
+    width: 365px;
+    font-size: 16px;
+    padding: 16px 28px;
+    border-radius: 12px;
+  }
+
+  .two-shoe__decor-text {
+    font-size: 26px;
+  }
+
+  .img__text_mix {
+    bottom: 20px;
+    left: 20px;
+    font-size: 16px;
+  }
+  
+  .img__text_present {
+    width: 140px;
+  }
+
+  .img__text_new-year {
+    bottom: 26px;
+    left: 26px;
+    padding: 22px 33px 22px 34px;
+    font-size: 20px;
+    border-radius: 12px;
+    }
+
+  .img__text_spray {
+    bottom: 14px;
+    left: 14px;
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 780px) {
+  .img__percent {
+    font-size: 16px;
+    padding: 13px 5px 16px 7px;
+  }
+
+  .img__percent_top {
+    top: 5px;
+    left: 5px;
+  }
+
+  .img__percent_bottom {
+    bottom: 5px;
+    right: 5px;
+  }
+
+  .img__text_book {
+    bottom: 10px;
+    left: 10px;
+    width: 70px;
+    font-size: 12px;
+  }
+
+  .book__decor-text {
+    font-size: 16px;
+  }
+
+  .img__text_clock {
+    top: 28px;
+    left: 10px;
+    font-size: 12px;
+  }
+
+  .img__text_two-shoe {
+    bottom: 10px;
+    left: 10px;
+    width: 260px;
+    font-size: 12px;
+    padding: 9px 20px;
+    border-radius: 8px;
+  }
+
+  .two-shoe__decor-text {
+    font-size: 16px;
+  }
+
+  .img__text_mix {
+    bottom: 16px;
+    left: 10px;
+    font-size: 12px;
+  }
+  
+  .img__text_present {
+    width: 100%;
+
+  }
+
+  .img__text_new-year {
+    bottom: 10px;
+    left: 15px;
+    padding: 7px 41px 9px;
+    font-size: 12px;
+    border-radius: 6px;
+    }
+
+  .img__text_spray {
+    bottom: 10px;
+    left: 9px;
+    font-size: 12px;
+  }
+}
