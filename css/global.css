@@ -108,7 +108,7 @@ iframe {
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 766px) {
   .container {
     max-width: 340px;
   }
